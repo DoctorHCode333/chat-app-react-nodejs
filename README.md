@@ -27,7 +27,7 @@ Web sockets facilitate real-time, bidirectional communication between users, ena
 
 ### Steps to Start the App:
 
- 1. Install the Public Dependencies
+# 1. Install the Public Dependencies
 # 2. Install the Server Dependencies
 # 3. In the Server Directory, there's a `.env` file. Change the value of `mongodb` inside the file. Set the value as your MongoDB connection URL.
 # 4. Start the server by running `yarn start` or `npm start`
