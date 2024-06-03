@@ -1,4 +1,4 @@
-# Advanced Messaging Application
+# Advanced Web-Chat Application
 
 This is a web-based application for advanced messaging secured using strong cryptography techniques. It's developed using the MERN Stack, with web sockets used for asynchronous messaging.
 
