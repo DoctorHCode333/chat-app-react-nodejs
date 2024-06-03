@@ -12,18 +12,17 @@ This is a web-based application for advanced messaging secured using strong cryp
 
 ## Project Overview:
 
-The project utilizes MongoDB to store user chats and login credentials, both of which are encrypted using the advanced Extended Triple Diffie-Hellman Algorithm (EX3DH) implemented using the Signal-API. This ensures end-to-end encryption, making the application chats immune to cyber-attacks like brute-force or dictionary-based.
+The MERN Chat Application stores user chats and login credentials securely in a MongoDB database. Messages and credentials are encrypted using advanced cryptography techniques, specifically the Extended Triple Diffie-Hellman Algorithm (EX3DH) implemented via the Signal API. This ensures end-to-end encryption, safeguarding chats from cyber-attacks such as brute force or dictionary-based attacks.
 
-User details and login credentials are encrypted using hash functions and salting.
+User details and login credentials are further protected using hash functions and salting.
 
-The frontend is designed using the React.js framework, with the UI rendered using several different components and the Route method, making it a Single Page Application (SPA).
+The frontend of the application is developed using the React.js framework, offering a dynamic and interactive user interface. React Router is employed for navigation, enabling a seamless single-page application (SPA) experience.
 
-The backend is created using Node.js and Express.js.
+On the backend, Node.js and Express.js are utilized to handle server-side logic and API routes.
 
-Axios is used to simplify communications with the browser, handling HTTP requests and responses with respect to server-side APIs.
+Axios simplifies communication between the browser and server by handling HTTP requests and responses.
 
-Web Sockets are used for asynchronous communication between users.
-
+Web sockets facilitate real-time, bidirectional communication between users, enabling instant messaging capabilities.
 ## Project Deployment Guide:
 
 ### Steps to Start the App:
